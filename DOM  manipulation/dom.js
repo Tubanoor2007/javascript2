@@ -1,10 +1,10 @@
 // EXAMINE THE DOCUMENT OBJECT //
 
-// console.dir(document);
-// console.log(document.domain);
-// console.log(document.URL);
-// console.log(document.title);
-// document.title =  123;
+//  console.dir(document);
+//  console.log(document.domain);
+ //console.log(document.URL);
+//console.log(document.title);
+ //document.title =  123;
 // console.log(document.doctype);
 // console.log(document.head);
 // console.log(document.body);
@@ -75,7 +75,7 @@
 // var secondItem = document.querySelector('.list-group-item:nth-child(3)');
 // secondItem.style.color = 'coral';
 
-// QUERYSELECTORALL //
+// // QUERYSELECTORALL //
 // var titles = document.querySelectorAll('.title');
 
 // console.log(titles);
