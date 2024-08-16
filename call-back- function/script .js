@@ -22,20 +22,20 @@ function enrollStudent(student, callback){
 }
 
 
-function getStudents(){
-    setTimeout(function() {
-        let str = "";
-        students.forEach(function(student){
-            str += `<li> ${student.name}</li>`
-        });
-        document.getElementById('students').innerHTML = str;
-        console.log("Students have been fetched");
-    }, 3000);
-}
+// function getStudents(){
+//     setTimeout(function() {
+//         let str = "";
+//         students.forEach(function(student){
+//             str += `<li> ${student.name}</li>`
+//         });
+//         document.getElementById('students').innerHTML = str;
+//         console.log("Students have been fetched");
+//     }, 3000);
+// }
 
-let newStudent = {name:"mohammed", subject:"react"}
-enrollStudent(newStudent, getStudents);
-getStudents();
+// let newStudent = {name:"mohammed", subject:"react"}
+// enrollStudent(newStudent, getStudents);
+// getStudents();
 
 
 
@@ -81,4 +81,4 @@ getStudents();
 // getStudents();
 
 // // function inside then is ran as - resolve()
-// // function inside catch is ran as - reject()
+// // function inside catch is ran as - reject(

@@ -16,7 +16,7 @@
 // console.log(document.images);
 
 // GETELEMENTBYID //
-// console.log(document.getElementById('header-title'));
+//  console.log(document.getElementById('header-title'));
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
 // console.log(header);
@@ -42,7 +42,7 @@
 // }
 
 // GETELEMENTSBYTAGNAME //
-// var li = document.getElementsByTagName('li');
+var li = document.getElementsByTagName('li');
 // console.log(li);
 // console.log(li[1]);
 // li[1].textContent = 'Hello 2';
